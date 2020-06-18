@@ -1,1 +1,0 @@
-# danieladuranlop.github.io
