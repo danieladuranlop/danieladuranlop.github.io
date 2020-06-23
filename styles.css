@@ -11,8 +11,8 @@ body {
 }
 .container {
 	font-size: 1.5em;
-	width: 100%
-	height:100vh;
+	width: 100%;
+	height: 100vh;
 	display: grid;
 	grid-template-areas: 
 		"sidebar"
@@ -32,8 +32,8 @@ body {
 .photo h1 {
 	font-size: 3em;
 }
-. photo p {
+.photo p {
 	width: 60%;
 }
-}
+
 
