@@ -7,6 +7,7 @@ body {
 .sidebar {
 	grid-area: sidebar;
 	justify-content: center;
+
 }
 .container {
 	font-size: 1.5em;
@@ -15,9 +16,10 @@ body {
 	display: grid;
 	grid-template-areas: 
 		"sidebar"
-		"content"
+		"content";
 	grid-template-columns: 300px 1fr;
-	grid-template-rows: 1fr auto;
+	grid-template-rows: 130px, 800px, 250px;
+	padding: 1fr auto;
 }
 .photo {
 	text-align: left;
