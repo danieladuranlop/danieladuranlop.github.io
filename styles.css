@@ -3,6 +3,7 @@ body {
 }
 .content {
 	grid-area: content;
+
 }
 .sidebar {
 	grid-area: sidebar;
@@ -18,7 +19,7 @@ body {
 		"sidebar"
 		"content";
 	grid-template-columns: 300px 1fr;
-	grid-template-rows: 130px, 800px, 250px;
+	grid-template-rows: 130px, 800px;
 	padding: 1fr auto;
 }
 .photo {
