@@ -1,0 +1,33 @@
+body {
+	background:#F6EFEE;
+}
+.content {
+	grid-area: content;
+}
+.sidebar {
+	grid-area: sidebar;
+	background:#F6EFEE;
+	justify-content: center;
+}
+.container {
+	grid-template-areas: 
+		"sidebar content";
+	grid-template-columns: 300px 1fr;
+	grid-template-rows: 1fr auto;
+}
+.photo {
+	text-align: left;
+	margin: 2em auto;
+}
+.photo img {
+	width: 250px;
+	float: right;
+}
+.photo h1 {
+	font-size: 3em;
+}
+. photo p {
+	width: 60%;
+}
+}
+
