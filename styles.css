@@ -6,7 +6,6 @@ body {
 }
 .sidebar {
 	grid-area: sidebar;
-	background:#F6EFEE;
 	justify-content: center;
 }
 .container {
